@@ -18,7 +18,7 @@
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-flow": "^7.10.1",
     "@babel/register": "^7.10.3",
-    "ava": "^3.9.0",
+    "ava": "^5.3.1",
     "babel-plugin-istanbul": "^6.0.0",
     "babel-plugin-tailcall-optimization": "^2.0.0",
     "coveralls": "^3.1.0",
@@ -28,7 +28,7 @@
     "flow-copy-source": "^2.0.9",
     "husky": "^4.2.5",
     "nyc": "^15.1.0",
-    "semantic-release": "^17.1.0"
+    "semantic-release": "^22.0.1"
   },
   "engines": {
     "node": ">6.0.0"
@@ -70,6 +70,5 @@
     "lint": "eslint ./src ./test && flow",
     "test": "NODE_ENV=test nyc --reporter=text ava --verbose --serial"
   },
-  "version": "2.1.0",
-  "dependencies": {}
+  "version": "2.1.0"
 }
