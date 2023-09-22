@@ -47,6 +47,7 @@
   ],
   "license": "BSD-3-Clause",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "name": "@btabram/graphql-deduplicator",
   "nyc": {
     "include": [
@@ -70,5 +71,5 @@
     "lint": "eslint ./src ./test && flow",
     "test": "NODE_ENV=test nyc --reporter=text ava --verbose --serial"
   },
-  "version": "2.1.0"
+  "version": "2.1.1"
 }
