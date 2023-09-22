@@ -47,7 +47,7 @@
   ],
   "license": "BSD-3-Clause",
   "main": "./dist/index.js",
-  "name": "graphql-deduplicator",
+  "name": "@btabram/graphql-deduplicator",
   "nyc": {
     "include": [
       "src/**/*.js"
@@ -63,13 +63,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gajus/graphql-deduplicator"
+    "url": "https://github.com/btabram/graphql-deduplicator"
   },
   "scripts": {
     "build": "rm -fr ./dist && NODE_ENV=production babel ./src --out-dir ./dist --copy-files --source-maps && flow-copy-source src dist",
     "lint": "eslint ./src ./test && flow",
     "test": "NODE_ENV=test nyc --reporter=text ava --verbose --serial"
   },
-  "version": "1.0.0",
+  "version": "2.1.0",
   "dependencies": {}
 }
